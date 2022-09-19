@@ -1,0 +1,101 @@
+body {
+  background-image: linear-gradient(#02AEEC, #29AC9C 70%);
+  height:100vh;
+}
+.main{
+  height:500px;
+  width: 30%;
+  border-radius: 10px;
+  background-color:white;
+  display:block;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 127px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.200), -8px -8px 5px rgba(0, 0, 0, 0.200);
+}
+.main div h2 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 30px;
+  color: #098672de;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: bold;
+}
+.main .login form {
+  text-align: center;
+  padding: 35px 0px;
+}
+.first-row {
+  padding-bottom: 20px;
+  position:relative;
+}
+.second-row {
+  padding-bottom: 20px;
+  position:relative;
+}
+.third-row {
+  padding-bottom: 20px;
+  position:relative;
+}
+.first-row input{
+  width: 300px;
+  height: 50px;
+  border: 0px;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+.second-row input{
+  width: 300px;
+  height: 50px;
+  border: 0px;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+.third-row input{
+  width: 300px;
+  height: 50px;
+  border: 0px;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+.first-row input[type=Name]{
+  padding-left: 40px;
+}
+.second-row input[type=Email]{
+  padding-left: 40px;
+}
+.third-row input[type=password]{
+  padding-left: 40px;
+}
+.first-row i{
+ position:absolute;
+ left:4;
+ top:8px;
+ padding:10px 8px;
+ color:rgb(128, 128, 128)
+}
+.second-row i{
+  position:absolute;
+ left:4;
+ top:8px;
+ padding:10px 8px;
+ color:rgb(128, 128, 128)
+}
+.third-row i{
+  position:absolute;
+  left:4;
+  top:8px;
+  padding:10px 8px;
+  color:rgb(128, 128, 128)
+}
+.main .btn {
+  text-align: center;
+  margin-top: 0px;
+}
+.btn button {
+  width:150px;
+  height:35px;
+  border-radius: 40px;
+  border: 0px;
+  margin: 0px 6px
+}
+.btn #primary {
+  background-image: linear-gradient(#29AC9C 60%, #02AEEC);
+}
